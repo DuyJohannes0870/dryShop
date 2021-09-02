@@ -1,0 +1,10 @@
+D:\.Net\2034\dryShop\eShopSolution.Utilities\bin\Release\netcoreapp3.1\eShopSolution.Utilities.deps.json
+D:\.Net\2034\dryShop\eShopSolution.Utilities\bin\Release\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\.Net\2034\dryShop\eShopSolution.Utilities\bin\Release\netcoreapp3.1\eShopSolution.Utilities.pdb
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.csproj.AssemblyReference.cache
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.AssemblyInfoInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.AssemblyInfo.cs
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.csproj.CoreCompileInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\.Net\2034\dryShop\eShopSolution.Utilities\obj\Release\netcoreapp3.1\eShopSolution.Utilities.pdb

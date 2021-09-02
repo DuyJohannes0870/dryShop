@@ -1,0 +1,48 @@
+﻿@model ProductDetailViewModel
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var culture = CultureInfo.CurrentCulture;
+}
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
+@inject LazZiya.ExpressLocalization.ISharedCultureLocalizer _loc;
+
+<ul class="breadcrumb">
+    <li><a href="/"><localize>Home</localize></a> <span class="divider">/</span></li>
+    <li class="active">@Model.Product.Name</li>
+</ul>
+
+<div class="row">
+    <div id="gallery" class="span3">
+        <a href="@(Configuration["BaseAddress"] + Model.Product.ThumbnailImage)" title="@Model.Product.Name">
+            <img src="@(Configuration["BaseAddress"] + Model.Product.ThumbnailImage)" style="width:100%" alt="@Model.Product.Name" />
+        </a>
+    </div>
+    <div class="span6">
+        <h3>@Model.Product.Name</h3>
+        <p style="font-size:12pt">@Model.Product.Description</p>
+        <hr class="soft" />
+        <form class="form-horizontal qtyFrm">
+            <div class="control-group">
+                <label style="font-size:15pt" > <b>Giá Tiền:</b> @Model.Product.Price.ToString("C", culture)</label>
+                
+            </div>
+        </form>
+
+        <hr class="soft" />
+        <div>
+            <h4 style="color:blue" class="control-label">Còn hàng</h4>
+            <div class="controls">
+                <a href="/" class="btn btn-large btn-primary pull-right"><i class="icon-arrow-left"></i><localize>Trở về</localize></a>
+            </div>
+        </div>
+        
+        
+        <p style="font-size:12pt">
+            @Html.Raw(Model.Product.Details)
+        </p>
+        
+    </div>
+
+    
+</div>

@@ -1,0 +1,46 @@
+﻿@model eShopSolution.ViewModels.System.Users.LoginRequest
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var culture = CultureInfo.CurrentCulture.Name;
+}
+<ul class="breadcrumb">
+    <li><a href="/">Home</a> <span class="divider">/</span></li>
+    <li class="active">Login</li>
+</ul>
+<h3> Đăng nhập</h3>
+<hr class="soft" />
+
+<div class="row">
+    
+    <div style="margin-left:250px" class="span3">
+        <div class="well">
+            
+            <form action="/@culture/Account/Login" method="post">
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail1">Tên đăng nhập</label>
+                    <div class="controls">
+                        <input type="text" value="UserName" asp-for="UserName" placeholder="Email" name="UserName" onfocus="this.value = '';"
+                               onblur="if (this.value == '') {this.value = 'UserName';}" required="">
+                        <span asp-validation-for="UserName" class="text-error"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="inputPassword1">Password</label>
+                    <div class="controls">
+                        <input type="password" value="Password" asp-for="Password" placeholder="Password" name="Password" onfocus="this.value = '';"
+                               onblur="if (this.value == '') {this.value = 'Password';}" required="">
+                        <span asp-validation-for="Password" class="text-error"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <button type="submit" style="color:green" class="btn">Đăng nhập</button>
+                        <a style="margin-left:20px" href="/@culture/Account/Register" class="btn block">Đăng ký</a>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>	

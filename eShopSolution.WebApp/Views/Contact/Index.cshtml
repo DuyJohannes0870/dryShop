@@ -1,0 +1,52 @@
+﻿@model eShopSolution.WebApp.Models.MailContent
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<hr class="soften">
+<h1>Thông tin liên hệ</h1>
+<hr class="soften" />
+<div class="row">
+    <div class="span4">
+        <h4>Phản hồi</h4>
+        <form asp-action="Index" class="form-horizontal">
+            <fieldset>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="control-group">
+                    <input asp-for="Name" type="text" placeholder="Họ Tên" class="input-xlarge" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="control-group">
+                    <input type="text" placeholder="Hộp thư" class="input-xlarge" />
+                </div>
+
+                <div class="control-group">
+                    <input asp-for="Subject" type="text" placeholder="Tiêu Đề" class="input-xlarge" />
+                    <span asp-validation-for="Subject" class="text-danger"></span>
+                </div>
+
+                <div class="control-group">
+                    <textarea asp-for="Body" rows="3" placeholder="Nội dung" id="textarea" class="input-xlarge"></textarea>
+                    <span asp-validation-for="Body" class="text-danger"></span>
+                </div>
+
+                <h5 style="color:red">@ViewBag.message</h5>
+                <button type="submit" class="btn btn-large">Gửi Tin Nhắn</button>
+                <br />
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+<br />
+<div class="row">
+    <div class="span9">
+        <iframe style="width:100%; height:400px; border: 0px" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.401535306885!2d106.62790761411706!3d10.8570332606711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175291e77a210ed%3A0xeeb77a8e6bd18f2e!2sHoa%20Sen%20University%20(Campus%20Quang%20Trung%201)!5e0!3m2!1sen!2sus!4v1629860030419!5m2!1sen!2sus"></iframe><br />
+        <small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.401535306885!2d106.62790761411706!3d10.8570332606711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175291e77a210ed%3A0xeeb77a8e6bd18f2e!2sHoa%20Sen%20University%20(Campus%20Quang%20Trung%201)!5e0!3m2!1sen!2sus!4v1629860030419!5m2!1sen!2sus" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+    </div>
+</div>

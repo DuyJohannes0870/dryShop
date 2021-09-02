@@ -1,0 +1,10 @@
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\bin\Release\netcoreapp3.1\eShopSolution.ViewModels.deps.json
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\bin\Release\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\bin\Release\netcoreapp3.1\eShopSolution.ViewModels.pdb
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.csproj.AssemblyReference.cache
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.AssemblyInfoInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.AssemblyInfo.cs
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.csproj.CoreCompileInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\.Net\2034\dryShop\eShopSolution.ViewModels\obj\Release\netcoreapp3.1\eShopSolution.ViewModels.pdb

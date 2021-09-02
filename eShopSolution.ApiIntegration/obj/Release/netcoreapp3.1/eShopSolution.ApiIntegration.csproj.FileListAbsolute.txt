@@ -1,0 +1,15 @@
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.ApiIntegration.deps.json
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.ApiIntegration.dll
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.Utilities.pdb
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\bin\Release\netcoreapp3.1\eShopSolution.ViewModels.pdb
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.csproj.AssemblyReference.cache
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.AssemblyInfoInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.AssemblyInfo.cs
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.csproj.CoreCompileInputs.cache
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.csproj.CopyComplete
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.dll
+D:\.Net\2034\dryShop\eShopSolution.ApiIntegration\obj\Release\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
